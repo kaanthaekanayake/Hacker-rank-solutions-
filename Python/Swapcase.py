@@ -15,3 +15,6 @@ if __name__ == '__main__':
     s = input().strip()
     result = swap_case(s)
     print(result)
+
+    # You can do this whole thing with a single line (below)
+    # print(input().strip().swapcase())
